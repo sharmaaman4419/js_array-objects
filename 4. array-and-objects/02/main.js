@@ -26,3 +26,22 @@ var gunter = {
   };
   // 
   let penguien = [Gunter,Ramon,Fred];
+  //
+  console.log(penguien[0]);
+  //
+  let secondPenguin = Fred;
+  //
+  console.log(penguien[2]);
+  //
+  penguien[3] = "penguien";
+  //
+  console.log(penguien[length]);
+  //
+  penguien["canfly"] = false;
+  //
+  penguien.sayHello();
+  //
+  for (let key in penguien) {
+    console.log(penguien[key]);
+  }
+  
